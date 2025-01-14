@@ -22,7 +22,7 @@ task("clean", Delete::class) {
 
 tasks.withType(KotlinCompile::class.java).all {
     compilerOptions {
-        jvmTarget = JvmTarget.JVM_21
+        jvmTarget = JvmTarget.JVM_17
     }
 }
 
